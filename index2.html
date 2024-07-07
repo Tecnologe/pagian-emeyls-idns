@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
+   <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+   <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="stilos.css">
+   <link rel="stylesheet" href="styles.css">
+
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <title>Comercial Castro</title>
+   <style>
+      /* Estilo para el ícono de hamburguesa */
+      .hamburger {
+         position: absolute;
+         top: 20px;
+         right: 20px;
+         cursor: pointer;
+         z-index: 2;
+      }
+      .hamburger div {
+         width: 30px;
+         height: 3px;
+         background-color: #333;
+         margin: 6px 0;
+         transition: 0.4s;
+      }
+      /* Estilo para el menú desplegable */
+      .menu-desplegable {
+         display: none;
+         position: absolute;
+         top: 60px;
+         right: 20px;
+         ;
+         padding: 10px;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         z-index: 1;
+      }
+      .menu-desplegable a {
+         display: block;
+         padding: 10px 15px;
+         color: #333;
+         text-decoration: none;
+         transition: background-color 0.3s ease;
+      }
+      .menu-desplegable a:hover {
+         background-color: #f0f0f0;
+      }
+   </style>
+</head>
+
+<body>
+   <header>
+
+      <div id="contenedor">
+         <h1><img class="logo_1" src="img/logo.png" alt="logo_decomercial"></h1>
+         <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+         <ul id="menu">
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="Quienes Somos.html">Quines Somos</a></li>
+
+
+            <li><a href="producto.html">pueblos</a>
+
+            <li><a href="contactenos.html">Contactenos</a></li>
+         </ul>
+         <div class="menu-desplegable" id="menuDesplegable">
+            <a href="opcion1.html">Juegos</a>
+            <a href="opcion2.html">Videos</a>
+            <a href="opcion3.html">Biblioteca</a>
+         </div>
+      </div>
+   </header>
+
+   <img class="banner" src="img/baner.png"Comercial">
+
+   <main>
+      <section class="principal">
+         <h2 class="titulo_principal">¿Qué son los  pueblo Indigena?</h2>
+         <p class="mision">Los pueblos indígenas son comunidades étnicas que han habitado sus territorios ancestrales desde tiempos inmemoriales, antes de las épocas de colonización. Estos grupos poseen una cultura distintiva, idiomas propios y sistemas sociales que reflejan su profunda conexión con la tierra y la naturaleza. Su conocimiento ancestral sobre el medio ambiente no solo es vasto, sino que también es crucial para su subsistencia. Globalmente, los pueblos indígenas representan una rica diversidad cultural y desempeñan un papel fundamental en la defensa de sus derechos territoriales y culturales frente a los desafíos contemporáneos.</p>
+
+      </section>
+
+
+      <section>
+         <div class="options">
+            <div class="option active" style="--optionBackground:url(img/mapaguatemal.jpg);">
+               <div class="shadow"></div>
+               <div class="label">
+                  <div class="icon">
+                     <img src="img/mapaguatemal.jpg" />
+                  </div>
+                  <div class="info">
+                     <div class="main"></div>
+                     <div class="sub"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="option" style="--optionBackground:url(img//ritual.jpg);">
+               <div class="shadow"></div>
+               <div class="label">
+                  <div class="icon">
+                     <img src="img/ritual.jpg" />
+                  </div>
+                  <div class="info">
+                     <div class="main"></div>
+                     <div class="sub">Imagenes y más</div>
+                  </div>
+               </div>
+            </div>
+            <div class="option" style="--optionBackground:url(img/michele.jpg);">
+               <div class="shadow"></div>
+               <div class="label">
+                  <div class="icon">
+                     <img src="img/michele.jpg" />
+                  </div>
+                  <div class="info">
+                     <div class="main"></div>
+                     <div class="sub"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="option" style="--optionBackground:url(img/indigena.jpg);">
+               <div class="shadow"></div>
+               <div class="label">
+                  <div class="icon">
+                     <img src="img/indigena.jpg" />
+                  </div>
+                  <div class="info">
+                     <div class="main"></div>
+                     <div class="sub"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="option" style="--optionBackground:url(img/snete.jpg);">
+               <div class="shadow"></div>
+               <div class="label">
+                  <div class="icon">
+                     <img src="img/snete.jpg" />
+                  </div>
+                  <div class="info">
+                     <div class="main"></div>
+                     <div class="sub"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+         <script src="scrip.js"></script>
+      </section>
+
+
+      <footer class="fondon">
+         <section class="seccion-footer">
+            <P class="Copyrigt">&#169 Enely.Indigena</P>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <ul>
+               <li><a href="https://www.facebook.com/MontesinosColegio"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+         </section>
+      </footer>
+
+      <div class="hamburger" onclick="toggleMenu()">
+         <div></div>
+         <div></div>
+         <div></div>
+      </div>
+      <script src="extramenu.js" defer></script>
+
+</body>
+
+</html>

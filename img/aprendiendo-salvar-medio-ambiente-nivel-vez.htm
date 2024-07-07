@@ -1,0 +1,1031 @@
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9343608836899487?ers=1" nonce="MXquajhcNlI6hHGM3GJnNw"></script><script nonce="MXquajhcNlI6hHGM3GJnNw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<script>(function(){/*
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var aa=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},ba="function"==typeof Object.create?Object.create:function(a){var b=function(){};b.prototype=a;return new b},k;if("function"==typeof Object.setPrototypeOf)k=Object.setPrototypeOf;else{var m;a:{var ca={a:!0},n={};try{n.__proto__=ca;m=n.a;break a}catch(a){}m=!1}k=m?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}
+var p=k,q=function(a,b){a.prototype=ba(b.prototype);a.prototype.constructor=a;if(p)p(a,b);else for(var c in b)if("prototype"!=c)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.v=b.prototype},r=this||self,da=function(){},t=function(a){return a};var u;var w=function(a,b){this.g=b===v?a:""};w.prototype.toString=function(){return this.g+""};var v={},x=function(a){if(void 0===u){var b=null;var c=r.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:t,createScript:t,createScriptURL:t})}catch(d){r.console&&r.console.error(d.message)}u=b}else u=b}a=(b=u)?b.createScriptURL(a):a;return new w(a,v)};var A=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^Date.now()).toString(36)};var B={},C=null;var D="function"===typeof Uint8Array;function E(a,b,c){return"object"===typeof a?D&&!Array.isArray(a)&&a instanceof Uint8Array?c(a):F(a,b,c):b(a)}function F(a,b,c){if(Array.isArray(a)){for(var d=Array(a.length),e=0;e<a.length;e++){var f=a[e];null!=f&&(d[e]=E(f,b,c))}Array.isArray(a)&&a.s&&G(d);return d}d={};for(e in a)Object.prototype.hasOwnProperty.call(a,e)&&(f=a[e],null!=f&&(d[e]=E(f,b,c)));return d}
+function ea(a){return F(a,function(b){return"number"===typeof b?isFinite(b)?b:String(b):b},function(b){var c;void 0===c&&(c=0);if(!C){C={};for(var d="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),e=["+/=","+/","-_=","-_.","-_"],f=0;5>f;f++){var h=d.concat(e[f].split(""));B[f]=h;for(var g=0;g<h.length;g++){var l=h[g];void 0===C[l]&&(C[l]=g)}}}c=B[c];d=Array(Math.floor(b.length/3));e=c[64]||"";for(f=h=0;h<b.length-2;h+=3){var y=b[h],z=b[h+1];l=b[h+2];g=c[y>>2];y=c[(y&3)<<
+4|z>>4];z=c[(z&15)<<2|l>>6];l=c[l&63];d[f++]=""+g+y+z+l}g=0;l=e;switch(b.length-h){case 2:g=b[h+1],l=c[(g&15)<<2]||e;case 1:b=b[h],d[f]=""+c[b>>2]+c[(b&3)<<4|g>>4]+l+e}return d.join("")})}var fa={s:{value:!0,configurable:!0}},G=function(a){Array.isArray(a)&&!Object.isFrozen(a)&&Object.defineProperties(a,fa);return a};var H;var J=function(a,b,c){var d=H;H=null;a||(a=d);d=this.constructor.u;a||(a=d?[d]:[]);this.j=d?0:-1;this.h=null;this.g=a;a:{d=this.g.length;a=d-1;if(d&&(d=this.g[a],!(null===d||"object"!=typeof d||Array.isArray(d)||D&&d instanceof Uint8Array))){this.l=a-this.j;this.i=d;break a}void 0!==b&&-1<b?(this.l=Math.max(b,a+1-this.j),this.i=null):this.l=Number.MAX_VALUE}if(c)for(b=0;b<c.length;b++)a=c[b],a<this.l?(a+=this.j,(d=this.g[a])?G(d):this.g[a]=I):(d=this.l+this.j,this.g[d]||(this.i=this.g[d]={}),(d=this.i[a])?
+G(d):this.i[a]=I)},I=Object.freeze(G([])),K=function(a,b){if(-1===b)return null;if(b<a.l){b+=a.j;var c=a.g[b];return c!==I?c:a.g[b]=G([])}if(a.i)return c=a.i[b],c!==I?c:a.i[b]=G([])},M=function(a,b){var c=L;if(-1===b)return null;a.h||(a.h={});if(!a.h[b]){var d=K(a,b);d&&(a.h[b]=new c(d))}return a.h[b]};J.prototype.toJSON=function(){var a=N(this,!1);return ea(a)};
+var N=function(a,b){if(a.h)for(var c in a.h)if(Object.prototype.hasOwnProperty.call(a.h,c)){var d=a.h[c];if(Array.isArray(d))for(var e=0;e<d.length;e++)d[e]&&N(d[e],b);else d&&N(d,b)}return a.g},O=function(a,b){H=b=b?JSON.parse(b):null;a=new a(b);H=null;return a};J.prototype.toString=function(){return N(this,!1).toString()};var P=function(a){J.call(this,a)};q(P,J);function ha(a){var b,c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document,d=null===(b=c.querySelector)||void 0===b?void 0:b.call(c,"script[nonce]");(b=d?d.nonce||d.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",b)};var Q=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},R=function(a){this.g=a||r.document||document};R.prototype.appendChild=function(a,b){a.appendChild(b)};var S=function(a,b,c,d,e,f){try{var h=a.g,g=Q(a.g,"SCRIPT");g.async=!0;g.src=b instanceof w&&b.constructor===w?b.g:"type_error:TrustedResourceUrl";ha(g);h.head.appendChild(g);g.addEventListener("load",function(){e();d&&h.head.removeChild(g)});g.addEventListener("error",function(){0<c?S(a,b,c-1,d,e,f):(d&&h.head.removeChild(g),f())})}catch(l){f()}};var ia=r.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ja=r.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),ka=r.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),la=function(a,b,c){this.h=a;this.j=new R(this.h);this.g=null;this.i=[];this.l=!1;this.o=b;this.m=c},V=function(a){if(a.h.body&&!a.l){var b=
+function(){T(a);r.setTimeout(function(){return U(a,3)},50)};S(a.j,a.o,2,!0,function(){r[a.m]||b()},b);a.l=!0}},T=function(a){for(var b=W(1,5),c=0;c<b;c++){var d=X(a);a.h.body.appendChild(d);a.i.push(d)}b=X(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=W(100,110).toString()+"%";b.style.zIndex=W(2147483544,2147483644).toString();b.style["background-color"]=ma(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=ma(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=X(a);c.style.width=W(80,85).toString()+"%";c.style.maxWidth=W(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=Q(a.j.g,"IMG");d.className=A();d.src=ia;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=X(a),f=X(a);f.style["font-weight"]="bold";f.textContent=ja;var h=X(a);h.textContent=ka;Y(a,
+e,f);Y(a,e,h);Y(a,c,d);Y(a,c,e);Y(a,b,c);a.g=b;a.h.body.appendChild(a.g);b=W(1,5);for(c=0;c<b;c++)d=X(a),a.h.body.appendChild(d),a.i.push(d)},Y=function(a,b,c){for(var d=W(1,5),e=0;e<d;e++){var f=X(a);b.appendChild(f)}b.appendChild(c);c=W(1,5);for(d=0;d<c;d++)e=X(a),b.appendChild(e)},W=function(a,b){return Math.floor(a+Math.random()*(b-a))},ma=function(a,b,c,d,e,f){return"rgb("+W(Math.max(a,0),Math.min(b,255)).toString()+","+W(Math.max(c,0),Math.min(d,255)).toString()+","+W(Math.max(e,0),Math.min(f,
+255)).toString()+")"},X=function(a){a=Q(a.j.g,"DIV");a.className=A();return a},U=function(a,b){0>=b||null!=a.g&&0!=a.g.offsetHeight&&0!=a.g.offsetWidth||(na(a),T(a),r.setTimeout(function(){return U(a,b-1)},50))},na=function(a){var b=a.i;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:aa(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.i=[];(b=a.g)&&b.parentNode&&b.parentNode.removeChild(b);a.g=null};var pa=function(a,b,c,d,e){var f=oa(c),h=function(l){l.appendChild(f);r.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},g=function(l){document.body?h(document.body):0<l?r.setTimeout(function(){g(l-1)},e):b()};g(3)},oa=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var L=function(a){J.call(this,a)};q(L,J);var qa=function(a){J.call(this,a)};q(qa,J);var ra=function(a,b){this.l=a;this.m=new R(a.document);this.g=b;this.i=K(this.g,1);b=M(this.g,2);this.o=x(K(b,4)||"");this.h=!1;b=M(this.g,13);b=x(K(b,4)||"");this.j=new la(a.document,b,K(this.g,12))};ra.prototype.start=function(){sa(this)};
+var sa=function(a){ta(a);S(a.m,a.o,3,!1,function(){a:{var b=a.i;var c=r.btoa(b);if(c=r[c]){try{var d=O(P,r.atob(c))}catch(e){b=!1;break a}b=b===K(d,1)}else b=!1}b?Z(a,K(a.g,14)):(Z(a,K(a.g,8)),V(a.j))},function(){pa(function(){Z(a,K(a.g,7));V(a.j)},function(){return Z(a,K(a.g,6))},K(a.g,9),K(a.g,10),K(a.g,11))})},Z=function(a,b){a.h||(a.h=!0,a=new a.l.XMLHttpRequest,a.open("GET",b,!0),a.send())},ta=function(a){var b=r.btoa(a.i);a.l[b]&&Z(a,K(a.g,5))};(function(a,b){r[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];r[a]=da;b.apply(null,d)}})("__h82AlnkH6D91__",function(a){"function"===typeof window.atob&&(new ra(window,O(qa,window.atob(a)))).start()});}).call(this);
+
+window.__h82AlnkH6D91__("WyJwdWItOTM0MzYwODgzNjg5OTQ4NyIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi05MzQzNjA4ODM2ODk5NDg3Il0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hXS1dzc01TV3NXR1RYdzZHTzJvSG5NZThOSk95SmxRNFR6c1JPbk9FZ21TX1MxM0JOaU1BcmNzM01heVNTOVJxbmxfN3I2QWMxYmpHMHBEdXdpUENFazh3XHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFUydzlHclNwUnJvZjBEWS1ab0Rac0NvM05jcnVSaTB4cHozeDY4QmVwaHpNX05jazAyWVp3T2JNTjZ2UjliS244ZGU5bnJMT25Bal9fS2k2aGYxSkN0ZUFcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFVTQnFGaGJQekZXYUpiTFFKQUNsSHpxRzJuMkZYZV9CbzlZNkJnSXpzeC1nZm5SOHNvN0IybGZvTlBGZFVCd2tSZ29jSFIySHBiMk1wYXphNU1iZW9oUXdcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFVrWjM3NWp5YlN1WVQ2aE54eVJIYS12Tk83YURYdmpFYlJOTm8zUHNRZGRFQlJDOVI2REh4WEo4WFhBcTlkdzJ5MkpDQl9ydG9oWnNTQjBuYnpXay1NaHdcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUa3pORE0yTURnNE16WTRPVGswT0RjXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi05MzQzNjA4ODM2ODk5NDg3LmpzP3VzcXBcdTAwM2RDQVEiXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4VnZlekFXMm0tSkRXbnlIWjFGbHFtaVJoSTNSWVdvWWdORDJWeXlST3p2ejMxQnRWd3lESTVvNFYzbzdESWdjVVBYWnZabUJSdjN2R1BJdnVWZlJaNXQ3d1x1MDAzZFx1MDAzZCJd");</script>    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <!--General Styles-->
+<link href="/common_files/themes/soy502/desktop/css/styles.min.css?v=170" rel='stylesheet'>
+<link href="/sites/default/files/ads/assets/desktop/ads.min.css?v=170" rel='stylesheet'>
+<!-- <link href="/common_files/themes/soy502/desktop/css/article.min.css?v=49" rel='stylesheet'> -->
+<!-- <link href="/common_files/themes/soy502/desktop/css/colors.css" type="text/css" rel='stylesheet'/> -->
+<link href="/common_files/themes/soy502/desktop/css/desktop-colors.min.css?v=10" media="all and (min-width:950px)"
+    rel='stylesheet' />
+<link href="/common_files/themes/soy502/desktop/css/tablet-colors.min.css?v=10"
+    media="all and (min-width: 768px) and (max-width:939px)" rel='stylesheet' />
+<link href="/common_files/themes/soy502/desktop/css/mobile-colors.min.css?v=10" media="all and (max-width:767px)"
+    rel='stylesheet' />
+<link href="/static/script_zoom/fancybox.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
+
+<!-- // Google DFP -->
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+<!-- // Fonts -->
+<noscript id="deferred-styles">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</noscript>
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Abel|Barlow|Oxygen|Questrial&display=swap"
+    rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+<link rel="preload" href="/common_files/fonts/Stag-Book-Web.woff" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/common_files/fonts/Stag-Medium-Web.woff" as="font" type="font/woff2" crossorigin />
+
+<meta name="robots" content="follow, index, max-image-preview:large">
+<meta name="msvalidate.01" content="85656751E62058D6CFF1330588A29668">
+<meta http-equiv="Cache-Control" content="max-age=14400" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!--General Tags-->
+<title>Aprendiendo a salvar el medio ambiente, un nivel a la vez</title>
+<link rel="canonical" href="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez">
+
+<meta name="description" content="El Ministerio de Ambiente y Recursos Naturales (MARN) quiere educar a los ni&ntilde;os y j&oacute;venes en temas de ecolog&iacute;a, y &iquest;qu&eacute; mejor que una aplicaci&oacute;n de Android para llamar la atenci&oacute;n de este grupo objetivo?Guardianes Ecol&oacute;gicos Junior es la apuesta">
+<meta name="keywords" content="undefined">
+<meta name="news_keywords" content="undefined">
+<meta name="abstract" content="undefined">
+<meta name="time" content="1455678483">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/common_files/images/logoSoy502.png" type="image/png" sizes=256x256>
+<meta itemprop="image" content="/common_files/images/logoSoy502.png">
+<link rel="apple-touch-icon" href="/common_files/images/logoSoy502.png" />
+
+<!-- Marfeel Tags -->
+<meta property="mrf:sections" content="Tecnología">
+
+<!--Fb Tags-->
+<meta property="og:title" content="Aprendiendo a salvar el medio ambiente, un nivel a la vez">
+<meta property="og:url" content="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez">
+<meta property="og:type" content="article">
+<meta property="og:description" content="El Ministerio de Ambiente y Recursos Naturales (MARN) quiere educar a los ni&ntilde;os y j&oacute;venes en temas de ecolog&iacute;a, y &iquest;qu&eacute; mejor que una aplicaci&oacute;n de Android para llamar la atenci&oacute;n de este grupo objetivo?Guardianes Ecol&oacute;gicos Junior es la apuesta">
+<meta name="fburl" content="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez">
+<meta property="og:image" itemprop="image" content="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.43.25_pm.png">
+<meta property="og:image:secure_url" itemprop="image" content="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.43.25_pm.png">
+<meta property="og:image:width" content="940">
+<meta property="og:image:height" content="627">
+<meta property="og:image:alt" content="Aprendiendo a salvar el medio ambiente, un nivel a la vez">
+<meta property="fb:pages" content="531132203602321">
+<meta property="fb:app_id" content="462281473944961">
+<meta property="fb:admins" content="subgero">
+<meta property="fb:admins" content="subgero">
+<meta property="og:locale:alternate" content="es_ES" />
+
+<!--Scripts-->
+<!-- // Default Tags -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+<meta name="p:domain_verify" content="62b4e2e357c8d1aa7c1f650ab29e0a88" />
+
+<!-- Marfeel -->
+<script type="text/javascript">
+!function(){"use strict";function e(e){var t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1],c=document.createElement("script");c.src=e,t?c.type="module":(c.async=!0,c.type="text/javascript",c.setAttribute("nomodule",""));var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}!function(t,c){!function(t,c,n){var a,o,r;n.accountId=c,null!==(a=t.marfeel)&&void 0!==a||(t.marfeel={}),null!==(o=(r=t.marfeel).cmd)&&void 0!==o||(r.cmd=[]),t.marfeel.config=n;var i="https://sdk.mrf.io/statics";e("".concat(i,"/marfeel-sdk.js?id=").concat(c),!0),e("".concat(i,"/marfeel-sdk.es5.js?id=").concat(c),!1)}(t,c,arguments.length>2&&void 0!==arguments[2]?arguments[2]:{})}(window,5646,{} /* Config */)}();
+</script>
+
+<!--Chartbeat-->
+<script type="text/javascript">
+var keywords = 'undefined',
+    keywords = keywords.replace(/['"]+/g, ''),
+    section = "Tecnología";
+    section_name = "Tecnología";
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-35L65MT5KL"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-35L65MT5KL', {
+  'content_group': 'soy502',
+  'send_page_view': false
+});
+
+gtag("event", "page_view", {
+    s02_section: (section_name !== "") ? section_name : "undefined",
+    s02_index: 0,
+    s02_content_type: 'articulo',
+    s02_keyword: 'undefined',
+    s02_topic: 'undefined',
+    s02_platform: "desktop",        
+});
+</script>
+
+
+<!-- Clarity -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "lg9j38mdv2");
+</script>
+
+<link defer rel="manifest" href="/common_files/js/manifest.json">
+
+<!-- Tools -->
+<script defer type="text/javascript" src="/general/js/jquery-3.6.0.min.js"></script>
+<script defer src="https://www.soy502.com/general/js/jquery.tools.min.js"></script>
+<script defer src="/general/js/dfp.min.js?v=2" type="text/javascript"></script>
+<script defer src="/common_files/js/functions.min.js"></script>
+<script defer type="text/javascript" src="/static/script_zoom/fancybox.min.js"></script>
+<script defer src="https://kit.fontawesome.com/f777c45119.js" crossorigin="anonymous"></script>
+
+<!--SDK FB-->
+<script defer type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js#version=v2.2&appId=myAppId&xfbml=true&autoLogAppEvents=true" id="facebook-jssdk"></script>
+
+<!--SDK AWS-->
+<script defer src="/common_files/js/config.js?v=2"></script>
+<script defer src="/common_files/js/amazon-cognito-auth.min.js"></script>
+<script defer src="/common_files/js/amazon-cognito-identity.min.js"></script>
+
+<!-- whatsapp_inline -->
+<script defer type="text/javascript" src="/static/whatsapp_inline/whatsapp_inline.min.js?v=2"
+    onload="set_whatsapp('.item-0');"></script>
+
+<script type="text/javascript">
+var _sf_async_config = _sf_async_config || {};
+/** CONFIGURATION START **/
+_sf_async_config.uid = 65699;
+_sf_async_config.domain = 'soy502.com';
+_sf_async_config.flickerControl = false;
+_sf_async_config.useCanonical = true;
+_sf_async_config.useCanonicalDomain = true;
+/** CONFIGURATION END **/
+</script>
+
+<!-- Gravitec -->
+<script async src="https://cdn.gravitec.net/storage/da088508712922cd69cb2ce2639521af/client.js"></script>
+
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+<link rel="preconnect" href="https://www.googletagservices.com">
+<link rel="preconnect" href="https://tpc.googlesyndication.com">    </head>
+
+    <body>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "Soy502",
+                "url": "https://www.soy502.com/",
+                "address": "Av. Petapa 23-01, Guatemala",
+                "sameAs": [
+                    "https://www.facebook.com/soy502",
+                    "https://twitter.com/soy_502",
+                    "https://www.instagram.com/soy_502/",
+                    "https://www.pinterest.com/soy502/",
+                    "https://www.youtube.com/user/canalsoy502",
+                    "https://www.linkedin.com/company/soy502/"
+                ]
+            }
+        </script>
+        
+        <script type='text/javascript'>
+            var chartbeat_section_name = "Tecnología";
+            var chartbeat_author = "Por Soy502";                                    
+        </script>
+       
+        <header>
+  
+    <div class="header">
+        <div class="inner">
+            <div class="logo"><a href="/"></a></div>
+                        <div id="user-fb">
+                <div id="profile"></div>
+                <div id="status"></div>
+                <div id="enlace-login"><a href="/login"></a></div>
+            </div>
+            <!-- <div class="trendin"><a href="/trending" target="_blank"><img src="/trendin/images/trendin_desktop.gif" alt="Trendin"></a></div> -->
+            <div class="tools">
+                <div class="social">
+                    <ul>
+                        <li><a target="noopener" href="https://www.facebook.com/soy502"><i class="fa fa-fb" aria-hidden="true"></i></a></li>
+                        <li><a target="noopener" href="https://www.twitter.com/soy_502"><i class="fa fa-tw" aria-hidden="true"></i></a></li>
+                        <li><a target="noopener" href="http://instagram.com/soy_502"><i class="fa fa-ig" aria-hidden="true"></i></a></li>
+                        <li><a target="noopener" href="http://www.pinterest.com/soy502/"><i class="fa fa-pi" aria-hidden="true"></i></a></li>
+                        <li><i class="fa fa-se" aria-hidden="true" id="start-search"  onclick="showInput();"></i></li>
+                        <li><a id="btn-menu"><i class="fa fa-me" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <a class="linkImpreso" href="/impreso">
+                  <div class="redirectImpreso">
+                    <img id="impresoHeader" alt="">
+                    <div class="textImpreso"><p>Versión Impresa</p></div>
+                  </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="darker">
+    <div class="buscador-expandible hidden" id="buscador-expandible">
+        <input type="text" placeholder="Ingrese la palabra a buscar..." id="buscar-texto"><button id="buscar">Buscar</button>
+        <div id="alerta-buscador"></div>
+        <div id="resultados"></div>
+    </div>
+    <div id="menu" class="menu-expandible m-left">
+        <ul>
+            <li class="menu-tax-special"><a href="/seccion/exclusivas">Soy502 <img class="special_title_navigate" src="/common_files/images/notas-especiales/imagen-especial.png"></a>
+                <ul class="submenu especiales">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/asi-fue-crimen-contra-dennisse-estremecio-guatemala-101477"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/03/ribera_del_rio_san_miguel_petapa_masacre_mujer_crimen_frente_a_su_bebe__0.jpeg" alt="El crimen contra Dennisse Sulecio que estremeci&oacute; Guatemala"><p>Horror en Ribera del Río: el hombre que decapitó a Dennisse por "ataque de celos"</p></a></div><div class="row"><a href="/articulo/peticion-hizo-acusado-crimen-dennisse-sulecio-101567-0"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/04/captura_dennisse_sulecio_san_miguel_petapa.jpeg" alt="La petici&oacute;n que hizo el acusado del crimen de Dennisse Sulecio"><p>La petición que hizo el acusado del crimen de Dennisse Sulecio</p></a></div><div class="row"><a href="/articulo/sin-problemas-asi-facil-comprar-droga-ciudad-100931"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Abr/22/narcomenudeo_microtrafico_estupefacientes_narcotrafico_guatemala.jpg" alt="Sin problemas, as&iacute; de f&aacute;cil es comprar droga en la ciudad"><p>Mapa del Narcomenudeo: así de fácil es conseguir drogas en la Ciudad de Guatemala</p></a></div>                        </div>
+                    </li>                    
+                </ul>
+            </li>
+            <li class="menu-tax-8"><a href="/seccion/noticias">Noticias</a>
+                <ul class="submenu noticias">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/conductor-capta-presuntos-asaltantes-periferico-video-101477"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/07/anillo_periferico_presuntos_asaltantes_video_guatemala_.png" alt="Conductor capta a presuntos asaltantes en el Perif&eacute;rico (video)"><p>Conductor expone a presuntos asaltantes en el Periférico (video)</p></a></div><div class="row"><a href="/articulo/persecucion-pnc-contra-picop-queda-captada-video-101477"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/07/pnc_persecucion_picop_mujeres_taxisco_santa_rosa_video_.png" alt="Persecuci&oacute;n de PNC contra un picop queda captada en video"><p>Graban persecución de PNC contra un picop, y termina en disparos </p></a></div><div class="row"><a href="/articulo/lo-sorprenden-robando-pnc-interviene-asi-acabo-todo-video-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/07/pnc_guatemala_robo_captura_fg.png" alt="Lo sorprenden robando en zona 14, PNC interviene y as&iacute; acab&oacute; todo"><p>Lo sorprenden robando en zona 14, PNC interviene y así acabó todo (video)</p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/noticias/politica', 0, 'menu', 'seccion', 'Política');" href="/seccion/noticias/politica">Política</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/seguridad-justicia', 0, 'menu', 'seccion', 'Seguridad y justicia');" href="/seccion/noticias/seguridad-justicia">Seguridad y justicia</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/comunidad', 0, 'menu', 'seccion', 'Comunidad');" href="/seccion/noticias/comunidad">Comunidad</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/ambiente', 0, 'menu', 'seccion', 'Ambiente');" href="/seccion/noticias/ambiente">Ambiente</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/mundo', 0, 'menu', 'seccion', 'Mundo');" href="/seccion/noticias/mundo">Mundo</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/investigacion502', 0, 'menu', 'seccion', 'Investigación502');" href="/seccion/noticias/investigacion502">Investigación502</a></li><li class="comun"><a onclick="send_event_google('seccion/guate/corazon502', 0, 'menu', 'seccion', 'Corazón502');" href="/seccion/guate/corazon502">Corazón502</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/falso-o-verdadero', 0, 'menu', 'seccion', 'Falso o Verdadero');" href="/seccion/noticias/falso-o-verdadero">Falso o Verdadero</a></li><li class="comun"><a onclick="send_event_google('seccion/noticias/alertas', 0, 'menu', 'seccion', 'Alertas');" href="/seccion/noticias/alertas">Alertas</a></li>                </ul>
+            </li>
+            <li class="menu-tax-1449"><a href="/seccion/guate">Guate</a>
+                <ul class="submenu guate">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/celoso-egocentrico-enamorado-esto-revelo-pedro-ochandiano-153"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/04/influencias_pedro_ochandiano_soy502_guatemala_1_0.jpg" alt="&iquest;Celoso, egoc&eacute;ntrico y enamorado? Esto revel&oacute; Pedro Ochandiano"><p>¿Celoso, egocéntrico y enamorado? La inesperada revelación de Pedro Ochandiano </p></a></div><div class="row"><a href="/articulo/disenadoras-guatemaltecas-joyas-debes-conocer-153"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/03/disenadoras_joyas_guatemaltecas_soy502_guatemala.jpg" alt="Las dise&ntilde;adoras guatemaltecas de joyas que te encantar&aacute;n"><p>Las diseñadoras guatemaltecas de joyas que te encantarán</p></a></div><div class="row"><a href="/articulo/locutora-guatemalteca-nominada-premio-internacional-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/05/locutora_guatemalteca_radio_premios_estados_unidos_j.jpeg" alt="Locutora guatemalteca es nominada a premio internacional"><p>Locutora guatemalteca es nominada a premio internacional (videos)</p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/guate/historias502', 0, 'menu', 'seccion', 'Historias502');" href="/seccion/guate/historias502">Historias502</a></li><li class="comun"><a onclick="send_event_google('seccion/guate/orgullo502', 0, 'menu', 'seccion', 'Orgullo502');" href="/seccion/guate/orgullo502">Orgullo502</a></li><li class="comun"><a onclick="send_event_google('seccion/guate/turismo502', 0, 'menu', 'seccion', 'Turismo502');" href="/seccion/guate/turismo502">Turismo502</a></li><li class="comun"><a onclick="send_event_google('seccion/guate/que-hacer', 0, 'menu', 'seccion', '¿Qué hacer?');" href="/seccion/guate/que-hacer">¿Qué hacer?</a></li>                </ul>
+            </li>
+            <li class="menu-tax-107"><a href="/seccion/dinero">Dinero</a>
+                <ul class="submenu dinero">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/ingresa-aca-calcular-tu-bono-14-101902"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/06/dinero_bono14_guatemala_trabajo_empleo_soy502.jpg" alt="Ingresa ac&aacute; para calcular tu Bono 14"><p>Te presentamos la herramienta en línea para calcular tu Bono 14</p></a></div><div class="row"><a href="/articulo/participa-startup-avenue-gana-hasta-150-mil-dolares-101337"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/05/volcano_summit_startup_avenue_competition_convocatoria_negocio_guatemala_soy502.jpg" alt="Participa en Startup Avenue y gana hasta 150 mil d&oacute;lares"><p>Participa en Startup Avenue y gana hasta 150 mil dólares</p></a></div><div class="row"><a href="/articulo/unete-optimism-your-feed-transforma-tus-redes-sociales-101337"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/05/lg_electronics_lg_lifes_good_optimismo_redes_sociales_instagram_tiktok_hashtag_optimismyourfeed_guatemala_soy502_p.jpg" alt="&Uacute;nete a &#039;Optimism Your Feed&#039; y transforma tus redes sociales"><p>Únete a 'Optimism Your Feed' y transforma tus redes sociales</p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/dinero/economia', 0, 'menu', 'seccion', 'Economía');" href="/seccion/dinero/economia">Economía</a></li><li class="comun"><a onclick="send_event_google('seccion/dinero/empresas', 0, 'menu', 'seccion', 'Empresas');" href="/seccion/dinero/empresas">Empresas</a></li><li class="comun"><a onclick="send_event_google('seccion/dinero/emprendedores', 0, 'menu', 'seccion', 'Emprendedores');" href="/seccion/dinero/emprendedores">Emprendedores</a></li><li class="comun"><a onclick="send_event_google('seccion/dinero/tramitesgt', 0, 'menu', 'seccion', 'TrámitesGT');" href="/seccion/dinero/tramitesgt">TrámitesGT</a></li><li class="comun"><a onclick="send_event_google('seccion/dinero/pilas-pues', 0, 'menu', 'seccion', 'Pilas pues');" href="/seccion/dinero/pilas-pues">Pilas pues</a></li>                </ul>
+            </li>
+            <li class="menu-tax-7"><a href="/seccion/deportes">Deportes</a>
+                <ul class="submenu deportes">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/nathaniel-mendez-laing-vuelve-entrenamientos-tras-escandalo-50172"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/04/nathaniel_mendez-laing_.jpg" alt="Nathaniel Mendez-Laing vuelve a los entrenamientos tras esc&aacute;ndalo"><p>Nathaniel Mendez-Laing vuelve a los entrenamientos tras escándalo</p></a></div><div class="row"><a href="/articulo/nathaniel-mendez-laing-detenido-tras-incidente-espana-24039"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/04/nathaniel_mendez_laing_detencion_espana.jpeg" alt="Nathaniel Mendez-Laing es detenido tras incidente en Espa&ntilde;a"><p>Nathaniel Mendez-Laing es detenido tras incidente en España</p></a></div><div class="row"><a href="/articulo/asi-sera-uniforme-atletas-van-paris-2024-101902"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/03/whatsapp_image_2024-07-03_at_11.20.40.jpeg" alt="As&iacute; ser&aacute; el uniforme de los atletas que van a Par&iacute;s 2024"><p>Así será el uniforme de los atletas guatemaltecos que van a París 2024</p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/deportes/futbol-nacional', 0, 'menu', 'seccion', 'Fútbol nacional');" href="/seccion/deportes/futbol-nacional">Fútbol nacional</a></li><li class="comun"><a onclick="send_event_google('seccion/deportes/futbol-internacional', 0, 'menu', 'seccion', 'Fútbol internacional');" href="/seccion/deportes/futbol-internacional">Fútbol internacional</a></li><li class="comun"><a onclick="send_event_google('seccion/deportes/velocidad', 0, 'menu', 'seccion', 'Velocidad');" href="/seccion/deportes/velocidad">Velocidad</a></li><li class="comun"><a onclick="send_event_google('seccion/deportes/mas-deportes', 0, 'menu', 'seccion', '+ Deportes');" href="/seccion/deportes/mas-deportes">+ Deportes</a></li><li class="comun"><a onclick="send_event_google('seccion/deportes/juegos-olimpicos', 0, 'menu', 'seccion', 'Juegos Olímpicos');" href="/seccion/deportes/juegos-olimpicos">Juegos Olímpicos</a></li>                </ul>
+            </li>
+            <li class="menu-tax-44"><a href="/seccion/fama">Fama</a>
+                <ul class="submenu fama">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/fuertes-criticas-nodal-tras-publicar-foto-angela-aguilar-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/07/christian_nodal_angela_aguilar_relacion_cazzu_g.jpeg" alt="Fuertes cr&iacute;ticas a Nodal tras publicar foto con &Aacute;ngela Aguilar"><p>Le llueven críticas a Nodal tras publicar esta foto con Ángela Aguilar (video)</p></a></div><div class="row"><a href="/articulo/donde-hora-ver-miss-universe-guatemala-video-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/07/miss_universe_guatemala_candidatas_guatemaltecas_fg.png" alt="&iquest;En d&oacute;nde y a qu&eacute; hora ver Miss Universe Guatemala? (video)"><p>Llegó el gran día: ¿en dónde y a qué hora ver Miss Universe Guatemala? (video)</p></a></div><div class="row"><a href="/articulo/youtuber-reunio-miles-guatemaltecos-filgua-video-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/06/filgua_guatemala_bobicraft_youtuber_guatemaltecos_g.png" alt="El youtuber que reuni&oacute; a miles de guatemaltecos en Filgua (video)"><p>¡Largas filas! El youtuber que reunió a miles de guatemaltecos en Filgua (video)</p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/fama/gente', 0, 'menu', 'seccion', 'Gente');" href="/seccion/fama/gente">Gente</a></li><li class="comun"><a onclick="send_event_google('seccion/fama/cine', 0, 'menu', 'seccion', 'Cine');" href="/seccion/fama/cine">Cine</a></li><li class="comun"><a onclick="send_event_google('seccion/fama/musica', 0, 'menu', 'seccion', 'Música');" href="/seccion/fama/musica">Música</a></li><li class="comun"><a onclick="send_event_google('seccion/fama/streaming', 0, 'menu', 'seccion', 'Streaming');" href="/seccion/fama/streaming">Streaming</a></li>                </ul>
+            </li>
+            <li class="menu-tax-1467"><a href="/seccion/vida-estilo">Vida y estilo</a>
+                <ul class="submenu vida-estilo">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/pasa-si-solo-duermo-4-horas-101886"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/05/whatsapp_image_2024-07-05_at_16.10.21.jpeg" alt="Ent&eacute;rate qu&eacute; pasa si duermes solo 4 horas "><p>Entérate qué pasa si duermes solo 4 horas </p></a></div><div class="row"><a href="/articulo/potencial-zanahoria-tu-dieta-101886"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/05/whatsapp_image_2024-07-05_at_12.25.38.jpeg" alt="El potencial de la zanahoria en tu dieta "><p>Conoce las maravillas que ofrece la zanahoria y previene ciertos tipos de cáncer</p></a></div><div class="row"><a href="/articulo/frecuencia-debes-lavar-tu-auto-101886"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/05/whatsapp_image_2024-07-05_at_10.32.26.jpeg" alt="&iquest;Con qu&eacute; frecuencia debes lavar tu auto?"><p>Cuidados para tu vehículo ¿con qué frecuencia debes lavarlo?</p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/vida-estilo/hogar', 0, 'menu', 'seccion', 'Hogar');" href="/seccion/vida-estilo/hogar">Hogar</a></li><li class="comun"><a onclick="send_event_google('seccion/vida-estilo/salud', 0, 'menu', 'seccion', 'Salud');" href="/seccion/vida-estilo/salud">Salud</a></li><li class="comun"><a onclick="send_event_google('seccion/vida-estilo/ciencia', 0, 'menu', 'seccion', 'Ciencia');" href="/seccion/vida-estilo/ciencia">Ciencia</a></li><li class="comun"><a onclick="send_event_google('seccion/vida-estilo/autos', 0, 'menu', 'seccion', 'Autos');" href="/seccion/vida-estilo/autos">Autos</a></li><li class="comun"><a onclick="send_event_google('seccion/vida-estilo/libros', 0, 'menu', 'seccion', 'Libros');" href="/seccion/vida-estilo/libros">Libros</a></li>                </ul>
+            </li>
+            <li class="menu-tax-120"><a href="/seccion/trending">Trending</a>
+                <ul class="submenu trending">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/articulo/bus-emociona-conductores-pleno-transito-este-detalle-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/07/bus_guatemala_transito_toy_story_viral_d.jpeg" alt="Bus &quot;emociona&quot; a conductores en pleno tr&aacute;nsito por este detalle"><p>Bus "emociona" a conductores en pleno tránsito por este detalle (video)</p></a></div><div class="row"><a href="/articulo/agente-pmt-hizo-viral-tras-defender-companero-101477"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/06/pmt_san_juan_sacatepequez_pelea_video_vecinos_.jpeg" alt="La agente de PMT que se hizo viral tras defender a su compa&ntilde;ero"><p>La agente de la PMT que se viralizó por defender a su compañero de golpiza </p></a></div><div class="row"><a href="/articulo/zona-16-perros-atraen-miradas-tras-viajar-helicoptero-101566"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/06/perros_cayala_helicoptero_zona_16_viral_f.jpeg" alt="&iexcl;En zona 16! Perros atraen las miradas tras viajar en helic&oacute;ptero"><p>¡En zona 16! Perros atraen las miradas tras viajar en helicóptero (video) </p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a onclick="send_event_google('seccion/trending/redes-sociales', 0, 'menu', 'seccion', 'Redes sociales');" href="/seccion/trending/redes-sociales">Redes sociales</a></li><li class="comun"><a onclick="send_event_google('seccion/trending/tecnologia', 0, 'menu', 'seccion', 'Tecnología');" href="/seccion/trending/tecnologia">Tecnología</a></li><li class="comun"><a onclick="send_event_google('seccion/trending/porque-tendencia', 0, 'menu', 'seccion', '¿Por qué es tendencia?');" href="/seccion/trending/porque-tendencia">¿Por qué es tendencia?</a></li><li class="comun"><a onclick="send_event_google('seccion/trending/viral', 0, 'menu', 'seccion', 'Viral');" href="/seccion/trending/viral">Viral</a></li>                </ul>
+            </li>
+            <li class="menu-tax-33"><a href="/multimedia/all">multimedia</a>
+                <ul class="submenu multimedia">
+                    <li class="preview">
+                        <div class="border">
+                            <div class="row"><a href="/foto-galeria/libros-mas-vendidos-junio-2024"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jul/02/libros_mas_vendidos_junio_soy502_guatemala.jpg" alt="Los libros m&aacute;s vendidos de junio 2024"><p>Los libros más vendidos de junio 2024</p></a></div><div class="row"><a href="/foto-galeria/sabor-mi-tierra"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jun/21/el_sabor_de_mi_tierra_restaurante.jpg" alt="El sabor de mi tierra"><p>El sabor de mi tierra</p></a></div><div class="row"><a href="/foto-galeria/antigua-guatemala-lugares-capital-viajar"> <img src="//www.soy502.com/sites/default/files/styles/thumbnail/public/2024/Jun/21/r1ec5vkmgfm6armmentu.jpeg" alt="Antigua Guatemala, lugares, capital, viajar "><p>Antigua Guatemala, lugares, capital, viajar </p></a></div>                        </div>
+                    </li>
+                    <li class="comun"><a href="/multimedia/fotos">Fotos</a></li>
+                    <li class="comun"><a href="/multimedia/videos">Videos</a></li>
+                    <!--<li class="comun"><a href="/multimedia/podcast">Podcast</a></li>-->
+                </ul>
+            </li>
+            <!-- <li class="menu-tax-33"><a href="/multimedia/podcast">Podcast</a></li> -->            
+        </ul>
+    </div>
+</div>
+<div class="pre_banner_frontpage" style="margin-top: 8px;">
+    <a href="/principales-indicadores?utm_campaign=principales_indicadores_banner&amp;utm_medium=soy502&amp;utm_source=website_desktop">
+        <img src="https://www.soy502.com/sites/default/files/multimedia/2023/Jul/banner_soy502_1690489487_0.svg" alt="Principales Indicadores Económicos">
+    </a>
+</div><div id="float_login_inread" class="inner float_login_inread hidden">
+  <div id="login_inread">
+    <div class="content_login_inread">
+      <div id="login_form_inread" class="form_content_inread form_content_inread_modal">
+        <form class="" action="" method="post"
+          onsubmit="event.preventDefault(); clara_login_modal.login_validate_modal();">
+          <h4 style="margin-bottom: 15px;">Inicia sesión </h4>
+          <div id="register_success_msg_user_create_modal" class="success-msg"
+            style="margin-bottom: 20px; display:none;"></div>
+          <div class="form_input">
+            <!-- <label for="email">Email</label> -->
+            <input id="signIn_email_modal" type="email" name="email" placeholder="Ingresa tu email" value="">
+          </div>
+          <div class="form_input">
+            <!-- <label for="password">Contraseña</label> -->
+            <input id="signIn_password_modal" type="password" name="password" placeholder="Ingresa tu contraseña" value="">
+            <div class="required" id="wrongSignInPasswordModal"></div>
+          </div>
+          <button id="btn_login_modal" class="btn_inread_submit" type="submit" name="button">Ingresar</button>
+        </form>
+        <div class="buttons_form_inread">
+          <a id="recovery_pass_inread" class="second_btn_inread" type="button" name="button"
+            data-form="recovery_form_inread">Recuperar contraseña </a>
+          <a id="register_login_inread" class="second_btn_inread float-right" style="width:40%;" type="button"
+            name="button" data-form="register_form_inread">Regístrate</a>
+        </div>
+      </div>
+      <div id="register_form_inread" class="form_content_inread form_content_inread_modal">
+        <form class="" action="" method="post"
+          onsubmit="event.preventDefault(); clara_login_modal.register_validate_modal();">
+          <h4>Regístrate</h4>
+          <div class="form_input">
+            <input id="register_email_modal" type="email" name="email" placeholder="Ingresa tu correo" value="">
+            <div class="required" id="requiredRegisterEmailModal"></div>
+          </div>
+          <div class="form_input">
+            <select id="register_gender_modal" class="" name="gender">
+              <option value="0">Selecciona una opción</option>
+              <option value="male">Masculino</option>
+              <option value="female">Femenino</option>
+            </select>
+            <div class="required" id="requiredRegisterGenderModal"></div>
+          </div>
+          <div class="form_input">
+            <label for="date_of_age">Fecha de nacimiento</label>
+            <div class="group-date-register">
+              <select name="year-date-register-modal" id="year-date-register-modal">
+                <option selected value="-1">AÑO</option>
+              </select>
+              <select name="month-date-register-modal" id="month-date-register-modal">
+                <option selected value="-1">MES</option>
+              </select>
+              <select name="day-date-register-modal" id="day-date-register-modal">
+                <option selected value="-1">DIA</option>
+              </select>
+            </div>
+            <div class="required" id="requiredRegisterAgeModal"></div>
+          </div>
+          <div class="form_input">
+            <input id="register_password_modal" type="password" name="password" placeholder="Ingresa tu contraseña"
+              value="">
+          </div>
+          <div class="form_input">
+            <input id="register_password_confirm_modal" type="password" name="password"
+              placeholder="Repite tu contraseña" value="">
+            <div class="required" id="requiredRegisterPasswordMatchModal"></div>
+          </div>
+          <div class="disclaimer" style="margin-bottom:15px;"><label>Al hacer clic en el botón de registro afirmo que
+              acepto los <a style="color: #086fa3;" href="/terminos-y-condiciones-de-registro" target="_blank">términos
+                y condiciones</a> del sitio web, también que he leído la <a style="color: #086fa3;" target="_blank"
+                href="/politica-privacidad">política de privacidad</a> y que la información que detallo es
+              verídica.</label></div>
+          <button id="btn_register_modal" class="btn_inread_submit" type="submit" name="button">Registrarme</button>
+        </form>
+
+        <div class="buttons_form_inread">
+          <a id="recovery_pass_inread" class="second_btn_inread" type="button"
+            name="button" data-form="recovery_form_inread">Recuperar contraseña </a>
+          <a id="login_inread_button" class="second_btn_inread float-right btn-right"
+            style="width:40%;" type="button" name="button" data-form="login_form_inread">Inicia Sesión</a>
+        </div>
+      </div>
+      <div id="confirmation_code_form_inread" class="form_content_inread">
+        <form id="register_form_user_code_verification" class="" action="" method="post"
+          onsubmit="event.preventDefault(); clara_login_modal.aws_validate_verification_code_modal();">
+          <h4 style="margin-bottom: 15px;">Validar usuario</h4>
+          <div id="register_success_msg_user_code_verification_modal" class="success-msg" style="margin-bottom: 20px;">
+          </div>
+          <div class="form_input">
+            <input id="codeVerification_email_modal" type="hidden" name="email" placeholder="Ingresa tu correo"
+              value="">
+          </div>
+          <div class="form_input">
+            <input id="codeVerification_modal" type="number" name="code_verification"
+              placeholder="Ingresa el código de verificación" value="">
+            <div class="required" id="wrongCodeVerificationModal"></div>
+          </div>
+          <button class="btn_inread_submit" id="btn_login_inread" type="submit" name="button"
+            style="margin-bottom: 0px;">Validar usuario</button>
+          <p id="text_result"></p>
+        </form>
+      </div>
+      <div id="recovery_form_inread" class="form_content_inread form_content_inread_modal">
+        <form id="recovery_inread_verification_code_modal" class="hidden" action="" method="post"
+          onsubmit="event.preventDefault(); clara_login_modal.aws_update_password_modal();">
+          <h4 style="margin-bottom: 15px;font-size: 23px;">Crea tu nueva contraseña</h4>
+          <div class="success-msg" style="margin-bottom: 20px;">Se ha enviado un código de verificación a la cuenta
+            proporcionada, por favor no cierres esta ventana.</div>
+          <div class="form_input form_input_recovery">
+            <div class="form_input">
+              <input id="verification_code_modal" type="text" name="verification_code_modal"
+                placeholder="Ingresa el código de verificación" value="">
+              <div class="required" id="required_verification_code_modal"></div>
+            </div>
+            <div class="form_input">
+              <input id="new_password_modal" type="password" name="new_password_modal"
+                placeholder="Ingresa tu nueva contraseña" value="">
+              <div class="required" id="required_new_password_modal"></div>
+            </div>
+            <div class="form_input">
+              <input id="confirm_new_password_modal" type="password" name="confirm_new_password_modal"
+                placeholder="Confirma tu nueva contraseña" value="">
+              <div class="required" id="required_confirm_new_password_modal"></div>
+            </div>
+            <div class="required" id="wrongDataModal"></div>
+          </div>
+          <button class="btn_inread_submit" id="btn_recovery_pass_inread" type="submit" name="button">Confirmar</button>
+          <p id="text_result"></p>
+        </form>
+        <form id="recovery_validate_inread_modal" action="" method="post"
+          onsubmit="event.preventDefault(); clara_login_modal.recovery_validate_modal();">
+          <h4 style="margin-bottom: 15px;">Recupera tu contraseña</h4>
+          <div class="form_input">
+            <!-- <label for="email">Email</label> -->
+            <input id="recovery_email_modal" type="email" name="email" placeholder="Ingresa tu email" value="">
+            <div class="required" id="requiredRecoveryEmailModal"></div>
+          </div>
+          <button class="btn_inread_submit" id="btn_recovery_pass_modal" type="submit" name="button">Recuperar</button>
+        </form>
+        <div class="buttons_form_inread">
+          <a id="register_login_inread" class="second_btn_inread" type="button" name="button"
+            data-form="register_form_inread">Regístrate</a>
+          <a id="login_inread_button" class="second_btn_inread float-right" style="width:40%;" type="button"
+            name="button" data-form="login_form_inread">Inicia Sesión</a>
+        </div>
+      </div>
+      <div class="login_later">
+        <button id="later_inread" type="button" name="button">Más tarde</button>
+      </div>
+    </div>
+  </div>
+</div>        
+        <div class="inner richmediaSection">
+            <div id="eplanningrichmedia"></div>
+        </div>
+        <div id="project-modal-image" class="modal">
+            <div id="project-modal-content" class="modal-content image-project"><span id="close-project-modal" onclick="closeModal(); return false;" class="close">&times;</span><img id="img-poject" width="50%" src="" alt="">
+                <div id="name_person_project"></div>
+                <p style="text-align:left;margin-left: 20px;">Voto: <span id="option_project"></span></p>
+            </div>
+        </div>
+        
+        <script>  var related = [];  var related_keywords = " ";  var related_nid = "140678";  var related_tid = "121";  var sectionInitial = "Tecnología";  var urlInitial = "/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez";  var titleInitial = "Aprendiendo a salvar el medio ambiente, un nivel a la vez";</script>    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "articleSection": "Tecnología",
+            "mainEntityOfPage":{
+                "@type":"WebPage",
+                "@id":"https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+            },
+            "headline": "Aprendiendo a salvar el medio ambiente, un nivel a la vez",
+            "image": {
+                "@type": "ImageObject",
+                "url": "//www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.43.25_pm.png",
+                "width": 940,
+                "height": 627            },
+            "datePublished": "2016-02-17T03:08:03+00:00",
+            "dateModified": "2016-02-17T03:08:03+00:00",
+            "author": {
+                "@type": "Person",
+                "name": "Soy502",
+                "url": "https://www.soy502.com/"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Soy502",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.soy502.com/images/logoSoy502_200x200.png",
+                    "width": 200,
+                    "height": 200
+                }
+            },
+            "keywords": "",
+            "description": "El Ministerio de Ambiente y Recursos Naturales (MARN) quiere educar a los ni&amp;ntilde;os y j&amp;oacute;venes en temas de ecolog&amp;iacute;a, y &amp;iquest;qu&amp;eacute; mejor que una aplicaci&amp;oacute;n de Android para llamar la atenci&amp;oacute;n de este grupo objetivo?Guardianes Ecol&amp;oacute;gicos Junior es la apuesta"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Noticias Guatemala",
+                    "item": "https://www.soy502.com/"
+                }
+                , {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Trending",
+                        "item": "https://www.soy502.com/seccion/trending"
+                    }
+                , {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Tecnología",
+                    "item": "https://www.soy502.com/seccion/trending/tecnologia"
+                }
+            ]
+        }
+    </script>
+    <div class="page">
+        <div class="scroll" id="scroll">
+            <div class="item item-0" id="item-0">
+              <div class="unoxuno"> <script> window.googletag = window.googletag || {cmd: []};
+   googletag.cmd.push(function() {
+     googletag.defineSlot('/82890815/Desktop_Pixel_Ciencia_y_Tec_Tecnología', [1, 1], 'div-gpt-ad-1548369188971-0').addService(googletag.pubads());
+    // googletag.pubads().enableSingleRequest();
+     googletag.enableServices();
+   });
+ </script>
+ 
+ <!-- /82890815/Desktop_Pixel_Ciencia_y_Tec_Tecnología -->
+ <div id='div-gpt-ad-1548369188971-0' style='height:1px; width:1px;'>
+ <script>
+ googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548369188971-0'); });
+ </script>
+ </div></div>
+<!-- <div class="inner richmediaArticle"><div id="eplanningrichmedia"></div></div> -->
+<ul class="section-title">
+    <li class="subsection subsection-121">
+        <div class="inner"><a href="/">Noticias Guatemala</a> / <a href=/seccion/trending>Trending</a> / <a href='/seccion/trending/tecnologia'>Tecnología</a></div>
+    </li>
+</ul>
+<div class='content inner content-article' id='content'>
+    <div id="epl_impact_div2">
+        <div id="epl_impact_div2-inner"> <script>
+   window.googletag = window.googletag || {cmd: []};
+   googletag.cmd.push(function() {
+    googletag.defineSlot('/82890815/Desktop_Side_Left_Ciencia_y_Tec_Tecnología', [160, 600], 'div-gpt-ad-1548369022842-0').addService(googletag.pubads());
+   // googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- /82890815/Desktop_Side_Left_Ciencia_y_Tec_Tecnología -->
+<div id='div-gpt-ad-1548369022842-0' style='height:600px; width:160px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548369022842-0'); });
+</script>
+</div></div>
+    </div>
+    <section>
+        <h1>Aprendiendo a salvar el medio ambiente, un nivel a la vez</h1>
+        <div class="display-flex-up-social" style="align-items: center">
+            <div class="left_info_article">
+                <ul class="autor">
+                    <li>Por Soy502</li>
+                </ul>
+                
+                <span class="date">16 de febrero de 2016, 21:08</span>
+                <div class="topics_article">
+                    
+                </div>
+            </div>
+            <div class="share-header">
+                <div class="share-section">
+                    <div class="social">
+                        <div class="fb_share" onclick="send_event_google('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 0, 'facebook', 'articulo', 'Tecnología', '', 'undefined'); clara_login.send_user_event('Interacción', 'Compartir', 'facebook');" style=""><a
+                                href="https://www.facebook.com/sharer/sharer.php?app_id=462281473944961&sdk=joey&u=https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez&display=popup&ref=plugin&src=share_button"
+                                target="noopener"><img src="/common_files/images/fb.png" alt=""
+                                    class="img-share fb"></a>
+                        </div>
+                        <div class="wh_share" onclick="send_event_google('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 0, 'whatsapp', 'articulo', 'Tecnología', '', 'undefined'); clara_login.send_user_event('Interacción', 'Compartir', 'whatsapp');">
+                            <a href="whatsapp://send?text=Aprendiendo a salvar el medio ambiente, un nivel a la vez | Soy502 https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                data-href="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"><img
+                                    src="/common_files/images/wh.svg" alt="" class="img-share whatsapp"></a>
+                        </div>
+                        <div class="copy_url_share">
+                            <span class="tooltiptext" id="TooltipShare">¡Url Copiada!</span>
+                            <a data-url="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez" onclick="copyUrlArticle('articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 0, 'articulo', 'Tecnología', '', 'undefined'); clara_login.send_user_event('Interacción', 'Compartir', 'copy');"><img
+                                    src="/common_files/images/reacciones/copy-url-v2.png" alt=""
+                                    class="img-share copy-url"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="first-element"><div class="content-gallery"><div class="gallery-scrollable"><div class="items"><div class="item"><img class="lazy" src="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.43.25_pm.png" alt="Los juegos &quot;Guardianes Ecol&oacute;gicos Junior&quot; es la apuesta que hace el ministerio de ambiente para que ni&ntilde;os a partir de 5 a&ntilde;os aprendan sobre ecolog&iacute;a. "/>
+                    <div class="image-title-desc">
+                    <div class="d-count">
+                    <span class="count">1/5</span>
+                    </div><div class="1-caption caption">
+                    <div class="view-caption"></div>
+                    <p>Los juegos "Guardianes Ecológicos Junior" es la apuesta que hace el ministerio de ambiente para que niños a partir de 5 años aprendan sobre ecología. </p>
+                    <div class="close-caption"></div></div></div></div><div id="item-gallery-1" class="item item-defer" data-urlImg="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.33.28_pm.png">
+                            <div class="image-title-desc">
+                            <div class="d-count">
+                            <span class="count">2/5</span>
+                            </div><div class="1-caption caption">
+                            <div class="view-caption"></div>
+                            <p>El primero consiste en recoger basura y apagar incendios forestales.</p>
+                            <div class="close-caption"></div></div></div></div><div id="item-gallery-2" class="item item-defer" data-urlImg="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.49.03_pm.png">
+                            <div class="image-title-desc">
+                            <div class="d-count">
+                            <span class="count">3/5</span>
+                            </div><div class="1-caption caption">
+                            <div class="view-caption"></div>
+                            <p>Mientras más se recolectan más rápido se pasa a los siguientes niveles.</p>
+                            <div class="close-caption"></div></div></div></div><div id="item-gallery-3" class="item item-defer" data-urlImg="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.47.08_pm.png">
+                            <div class="image-title-desc">
+                            <div class="d-count">
+                            <span class="count">4/5</span>
+                            </div><div class="1-caption caption">
+                            <div class="view-caption"></div>
+                            <p>Uno de los juegos trata sobre limpiar el lago de Amatitlán</p>
+                            <div class="close-caption"></div></div></div></div><div id="item-gallery-4" class="item item-defer" data-urlImg="https://www.soy502.com/sites/default/files/styles/full_node/public/screen_shot_2016-02-16_at_2.48.19_pm.png">
+                            <div class="image-title-desc">
+                            <div class="d-count">
+                            <span class="count">5/5</span>
+                            </div><div class="1-caption caption">
+                            <div class="view-caption"></div>
+                            <p>El tercer juego es sobre clasificar desechos.</p>
+                            <div class="close-caption"></div></div></div></div></div></div><div class="nav"><a class="prev"></a><a class="next"></a></div></div></div>
+    </section>
+    <div id="epl_impact_div">
+        <div id="epl_impact_div-inner"> <script>
+    window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/82890815/Desktop_Side_Right_Ciencia_y_Tec_Tecnología', [160, 600], 'div-gpt-ad-1548368968793-0').addService(googletag.pubads());
+   // googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- /82890815/Desktop_Side_Right_Ciencia_y_Tec_Tecnología -->
+<div id='div-gpt-ad-1548368968793-0' style='height:600px; width:160px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548368968793-0'); });
+</script>
+</div></div>
+    </div>
+    <div class="two-columns">
+        <article>
+            <div class="body tvads">
+                <div class="social-share">
+                    <div class="social">
+                        <div class="like_soy502">
+                            <div class="count_like" id="total_like">-</div>
+                            <button id="like_btn" class="like_btn" data-url="/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                data-section="Tecnología"></button>
+                        </div>
+                        
+                        <div id="reaction-contain" class="reaction-contain show-reaction-contain">                            
+                            <div class="reaction-item">
+                                <img id="reaction-like" class="reaction-btn reaction-btn-like" data-url="/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                    data-section="Tecnología" onclick="addLike('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 1, 0, 'articulo', '', 'undefined'); clara_login.send_user_event('Interacción', 'Reacción', 'like');"
+                                    src="/common_files/images/reacciones/me-gusta-article.png" alt="reaction-soy502">
+                                <span class="count-reaction count-reaction-like"></span>
+                            </div>
+                            <div class="reaction-item">
+                                <img id="reaction-enjoy" class="reaction-btn reaction-btn-enjoy" data-url="/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                    data-section="Tecnología" onclick="addLike('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 3, 0, 'articulo', '', 'undefined'); clara_login.send_user_event('Interacción', 'Reacción', 'enjoy');"
+                                    src="/common_files/images/reacciones/me-divierte-article.png" alt="reaction-soy502">
+                                <span class="count-reaction count-reaction-enjoy"></span>
+                            </div>
+                            <div class="reaction-item">
+                                <img id="reaction-angry" class="reaction-btn reaction-btn-angry" data-url="/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                    data-section="Tecnología" onclick="addLike('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 6, 0, 'articulo', '', 'undefined'); clara_login.send_user_event('Interacción', 'Reacción', 'angry');"
+                                    src="/common_files/images/reacciones/me-enoja-article.png" alt="reaction-soy502">
+                                <span class="count-reaction count-reaction-angry"></span>
+                            </div>
+                            <div class="reaction-item">
+                                <img id="reaction-sad" class="reaction-btn reaction-btn-sad" data-url="/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                    data-section="Tecnología" onclick="addLike('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 5, 0, 'articulo', '', 'undefined'); clara_login.send_user_event('Interacción', 'Reacción', 'sad');"
+                                    src="/common_files/images/reacciones/me-entristece-article.png"
+                                    alt="reaction-soy502">
+                                <span class="count-reaction count-reaction-sad"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p dir="ltr">El <strong>Ministerio de Ambiente y Recursos Naturales</strong> (<strong>MARN</strong>) quiere educar a los niños y jóvenes en temas de <strong>ecología</strong>, y ¿qué mejor que una aplicación de <strong>Android</strong> para llamar la atención de este grupo objetivo?</p><p><strong>Guardianes Ecológicos Junior</strong> es la apuesta que hace la cartera para que <strong>niños a partir de 5 años</strong> aprendan sobre prevención de incendios forestales, recolección de basura, reciclaje y a cuidar el lago de Amatitlán.</p><p>Se trata de tres videojuegos que pretenden incentivar, desde edades tempranas, la adquisición de hábitos y valores frente al cuidado del ambiente. “Desarrollando su responsabilidad y compromiso con él de una manera lúdica”, indica un comunicado de prensa del <strong>MARN</strong>.</p><ul><li><strong style="font-size: 13.008px; line-height: 1.538em;"><em>RECUERDA:&nbsp;<a href="http://www.soy502.com/articulo/dia-mundial-medio-ambiente-ocasion-cuidar-planeta" target="_blank">Día Mundial del Medio Ambiente, una ocasión para cuidar del planeta</a></em></strong></li></ul><p><div class="inline-img"><img  src="//www.soy502.com/sites/default/files/styles/escalar_image_inline/public/img_4981.jpg" alt="Estudiantes de la Escuela de Aplicaci&oacute;n Dr. Carlos Mart&iacute;nez Dur&aacute;n fueron los primeros en utilizar &eacute;sta aplicaci&oacute;n. (Foto: Ministerio de Ambiente y Recursos Naturales)"><div class="img-desc">Estudiantes de la Escuela de Aplicación Dr. Carlos Martínez Durán fueron los primeros en utilizar ésta aplicación. (Foto: Ministerio de Ambiente y Recursos Naturales)</div></div></p><p dir="ltr">El primero consiste en recoge basura y apaga incendios forestales; mientras más se recolecta, más rápido se pasa a los siguientes niveles. El segundo consiste en retirar los desechos del <strong>Lago de Amatitlán</strong> mientras se destruyen obstáculos en el camino. El tercero trata sobre clasificar los tipos de basura para reutilizarlos y ayudar al medioambiente.</p><p>La creación de las figuras del<strong> Guardián Ecológico</strong> y la elaboración de una guía didáctica llevó aproximadamente un año. El desarrollo de las aplicaciones se hizo con el apoyo de la <strong>Cooperación Alemana</strong>, por medio de su <strong>programa de Desarrollo Rural y Adaptación al Cambio Climático</strong>.</p><p><figure class="inline-code"><blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Son juegos interactivos sobre recoger basura en las calles, bosques y limpiar el <a href="https://twitter.com/hashtag/LagodeAmatitl%C3%A1n?src=hash">#LagodeAmatitlán</a>. <a href="https://t.co/gIerQBU657">pic.twitter.com/gIerQBU657</a></p>&mdash; Ministerio Ambiente (@marngt) <a href="https://twitter.com/marngt/status/692048818326536192">enero 26, 2016</a></blockquote>
+</figure></p><p>“Se está buscando el apoyo para la promoción de las aplicaciones por medio de una campaña de publicidad siempre con la <strong>Cooperación Internacional</strong>”, explica el comunicado.</p><p>Por el momento las tres aplicaciones están disponibles en el <a href="http://marn.gob.gt/s/juegos-ambientales" target="_blank">sitio web</a> del MARN y pueden ser descargadas de manera <strong>gratuita</strong>. De igual forma se pueden instalar en cualquier dispositivo móvil con sistema operativo Android. &nbsp;</p><ul><li><strong><em>MIRA TAMBiÉN:&nbsp;<a href="http://www.soy502.com/articulo/marn-reconoce-lider-xinka-proteccion-naturaleza" target="_blank">MARN reconoce a líder xinka por protección de la naturaleza</a></em></strong></li></ul><p dir="ltr">La aplicación se lanzó el pasado 26 de enero en conmemoración del <strong>Día mundial de la Educación Ambiental</strong>.</p><p><figure class="inline-code"><blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">El 26 de Enero se celebra el Día Mundial de la Educación Ambiental, el cual tiene su origen en 1975. <a href="https://t.co/UqOOTvClO1">pic.twitter.com/UqOOTvClO1</a></p>&mdash; Ministerio Ambiente (@marngt) <a href="https://twitter.com/marngt/status/692083445661573120">enero 26, 2016</a></blockquote>
+</figure></p><p>&nbsp;</p><section class="inline-scripts"><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></section>
+            </div>
+            <section>
+                <ul class="related_links">
+                    <li class="subsection btn_related_links">
+                        <h2>Últimas noticias de Guatemala <a class="chevron"></a></h2>
+                    </li>
+                </ul>
+                <ul id="menu_related_links" class="menu_related_links">
+                    <script>
+                    var related_links = new XMLHttpRequest(),
+                        dom = document.getElementById("menu_related_links");
+                    related_links.open("GET", "https://" + location.hostname + "/common_files/php/related_links.php",
+                        true);
+                    related_links.onreadystatechange = function() {
+                        if (related_links.readyState == 4 && related_links.status == 200) {
+                            document.getElementById("menu_related_links").innerHTML = related_links.response;
+
+                        }
+                    }
+                    related_links.send();
+                    </script>
+                </ul>
+            </section>
+            <div class="display-flex-down-social mt--5">
+                <button class="getComments bt-comments" onClick="getComments('articulo/aprendiendo-salvar-medio-ambiente-nivel-vez');"> Comentar <i
+                        class="fa fa-comment" aria-hidden="true"></i></button>
+                <div class="social-share down-social-share">
+                    <div class="social social-down">
+                        <div class="fb_share" onclick="send_event_google('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 0, 'facebook', 'articulo', 'Tecnología', '', 'undefined'); clara_login.send_user_event('Interacción', 'Compartir', 'facebook');">
+                            <a href="https://www.facebook.com/sharer/sharer.php?app_id=462281473944961&sdk=joey&u=https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez&display=popup&ref=plugin&src=share_button"
+                                target="noopener">
+                                <img src="/common_files/images/fb.png" alt="" class="img-share fb">
+                            </a>
+                        </div>
+                        <div class="wh_share" onclick="send_event_google('/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 0, 'whatsapp', 'articulo', 'Tecnología', '', 'undefined'); clara_login.send_user_event('Interacción', 'Compartir', 'whatsapp');">
+                            <a href="whatsapp://send?text=Aprendiendo a salvar el medio ambiente, un nivel a la vez | Soy502 https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez"
+                                data-href="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez">
+                                <img src="/common_files/images/wh.svg" alt="" class="img-share whatsapp">
+                            </a>
+                        </div>
+                        <div class="tw_share">
+                            <span class="tooltiptext" id="TooltipShare">¡Url Copiada!</span>
+                            <a data-url="https://www.soy502.com/articulo/aprendiendo-salvar-medio-ambiente-nivel-vez" onclick="copyUrlArticle('articulo/aprendiendo-salvar-medio-ambiente-nivel-vez', 0, 'articulo', 'Tecnología', '', 'undefined'); clara_login.send_user_event('Interacción', 'Compartir', 'copy');">
+                                <img src="/common_files/images/reacciones/copy-url-v2.png" alt=""
+                                    class="img-share copy-url">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="getComments fb-comments hidden" onClick="getComments('articulo/aprendiendo-salvar-medio-ambiente-nivel-vez')" id="articulo/aprendiendo-salvar-medio-ambiente-nivel-vez">Comentar <i
+                    class="fa fa-comment" aria-hidden="true"></i></div>
+        </article>
+        <aside>
+            <div class="ad-top-box ads"><div class="ads-txt">Publicidad</div> <script>
+   window.googletag = window.googletag || {cmd: []};
+   googletag.cmd.push(function() {
+    googletag.defineSlot('/82890815/Desktop_Box_Top_Ciencia_y_Tec_Tecnología', [[300, 250], [336, 280]], 'div-gpt-ad-1548368656824-0').addService(googletag.pubads());
+  //  googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  },
+function() {
+   googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+     var slot = event.slot;
+     if (!event.isEmpty && event.size && (slot.getAdUnitPath().includes("Desktop_Box_Top_") || slot.getAdUnitPath().includes("Desktop_Box_Middle_") || slot.getAdUnitPath().includes("Desktop_Halfpage_"))) {
+        document.getElementById(slot.getSlotElementId()).style.maxWidth = event.size[0] ? event.size[0] + "px" : "336px";    
+        if (event.size[0] == 300 && (slot.getAdUnitPath().includes("Desktop_Box_Top_") || slot.getAdUnitPath().includes("Desktop_Box_Middle_"))) {
+          document.getElementById(slot.getSlotElementId()).style.margin = "15px auto";
+        }
+     }
+    if (!event.isEmpty && event.size && (slot.getAdUnitPath().includes("Desktop_Leaderboard_") || slot.getAdUnitPath().includes("Desktop_Interstitial_"))) {
+          document.getElementById(slot.getSlotElementId()).style.maxWidth = event.size[0] ? event.size[0] + "px" : "940px";
+          if(!slot.getSlotElementId().includes("-auto-gen")){
+                document.getElementById(slot.getSlotElementId()).style.height = event.size[1] ? event.size[1] + "px" : "70px";
+          } 
+          document.getElementById(slot.getSlotElementId()).parentNode.style.maxWidth = event.size[0] ? event.size[0] + "px" : "940px";
+          document.getElementById(slot.getSlotElementId()).parentNode.style.height = event.size[1] ? event.size[1] + "px" : "70px";                
+      }
+      if (!event.isEmpty && event.size && slot.getAdUnitPath().includes("Desktop_Interstitial_")) {            
+                window.parent.document.getElementById("close-ad").style.display = "block";  
+      }
+      if (!event.isEmpty && (slot.getAdUnitPath().includes("Desktop_Leaderboard_"))) {
+          document.getElementById(slot.getSlotElementId()).parentNode.style.margin = "6px auto";
+      }
+   });
+ }
+);
+</script>
+
+<!-- /82890815/Desktop_Box_Top_Ciencia_y_Tec_Tecnología -->
+<div id='div-gpt-ad-1548368656824-0' style='max-width:336px;min-height: 280px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548368656824-0'); });
+</script>
+</div></div>
+            <div class="clone">
+                <div class="most-frontpage">
+                    <div class="most-popular"><div class="most">
+    <ul class="tabs" >
+        <li><a class="tab2">+Visto</a></li>
+    </ul>
+    <div id="tabs-2" class="most_popular">
+        <script>
+            var most = new XMLHttpRequest(),
+                mostdom = document.getElementById("tabs-2");
+            var date = Math.floor(Date.now());
+            var params = "?date=" + date;
+            most.open("GET", location.protocol + "//" + location.hostname + "/common_files/php/most_popular.php" + params, true);
+            most.onreadystatechange = function(){
+                if(most.readyState == 4 && most.status == 200){
+                    mostdom.innerHTML = most.response;
+                }
+            }
+            most.send();
+        </script>
+    </div>
+</div>
+</div>
+                </div>
+                <div id="special">
+                    <script>
+                    var special = new XMLHttpRequest(),
+                        dom = document.getElementById("special");
+                    special.open("GET", "https://" + location.hostname + "/common_files/php/block_special.php", true);
+                    special.onreadystatechange = function() {
+                        if (special.readyState == 4 && special.status == 200) {
+                            dom.innerHTML = special.response;
+                        }
+                    }
+                    special.send();
+                    </script>
+                </div>
+            </div>
+            <div class="ad-bottom-box ads"><div class="ads-txt">Publicidad</div> <script>
+   window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/82890815/Desktop_Box_Middle_Ciencia_y_Tec_Tecnología', [[300, 250], [336, 280]], 'div-gpt-ad-1548368698553-0').addService(googletag.pubads());
+   // googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- /82890815/Desktop_Box_Middle_Ciencia_y_Tec_Tecnología -->
+<div id='div-gpt-ad-1548368698553-0' style="max-width:336px; min-height: 280px;">
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548368698553-0'); });
+</script>
+</div></div>
+            <div class="ad-middle-box ads"><div class="ads-txt">Publicidad</div> <script>
+   window.googletag = window.googletag || {cmd: []};
+   googletag.cmd.push(function() {
+    googletag.defineSlot('/82890815/Desktop_Halfpage_Ciencia_y_Tec_Tecnología', [[300, 600], [336, 600]], 'div-gpt-ad-1548369079067-0').addService(googletag.pubads());
+   // googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- /82890815/Desktop_Halfpage_Ciencia_y_Tec_Tecnología -->
+<div id='div-gpt-ad-1548369079067-0' style='height:600px; max-width:336px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548369079067-0'); });
+</script>
+</div></div>
+        </aside>
+    </div>
+</div>            </div>
+
+            <div class="item item-1" id="item-1"><div class="loader">Obteniendo...</div></div><div class="item item-2" id="item-2"><div class="loader">Obteniendo...</div></div><div class="item item-3" id="item-3"><div class="loader">Obteniendo...</div></div><div class="item item-4" id="item-4"><div class="loader">Obteniendo...</div></div><div class="item item-5" id="item-5"><div class="loader">Obteniendo...</div></div><div class="item item-6" id="item-6"><div class="loader">Obteniendo...</div></div><div class="item item-7" id="item-7"><div class="loader">Obteniendo...</div></div><div class="item item-8" id="item-8"><div class="loader">Obteniendo...</div></div><div class="item item-9" id="item-9"><div class="loader">Obteniendo...</div></div>    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar">
+      </div>
+    </div>
+</div>
+<footer>
+
+</footer>
+        <div class="footer">
+    <div class="inner">
+        <div class="logo">
+            <a href="/"></a>
+        </div>
+        <div class="nav-bottom">
+            <ul>
+              <li><a href="/seccion/exclusivas" class="">Soy502 <img class="special_title_navigate" src="/common_files/images/notas-especiales/imagen-especial.png"></a></li>
+              <li><a href="/seccion/noticias" class="">Noticias</a></li>
+              <li><a href="/seccion/guate" class="">Guate</a></li>
+              <li><a href="/seccion/dinero" class="">Dinero</a></li>
+              <li><a href="/seccion/fama" class="">Fama</a></li>
+              <li><a href="/seccion/deportes" class="">Deportes</a></li>
+              <li><a href="/seccion/trending" class="">Trending</a></li>
+              <li><a href="/seccion/vida-estilo" class="">Vida y estilo</a></li>
+              <li><a href="/multimedia/all" class="">Multimedia</a></li>
+              <li><a href="/sponsored" class="sponsored">Sponsored</a></li>
+                <!--<li><a href="/eventos" class="">Eventos</a></li>-->
+            </ul>
+        </div>
+        <div class="nav-static">
+            <ul>
+                <li><a href="/static/tarifario" style="color: #22c7ed" target="_blank">Anúnciate</a></li>
+                <li><a href="/quienes-somos">Acerca de</a></li>
+                <li><a href="/politica-privacidad">Política de privacidad</a></li>
+                <li><a href="/terminos-y-condiciones-de-uso-del-portal">Términos de uso</a></li>
+                <li><a href="/directorio">Directorio</a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <div class="partnership">
+                <a href="#" target="_blank"><img src="/images/dfp.png" alt="Comscore"></a>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a class="envelope" target="noopener" href="mailto:redaccion@soy502.com"></a></li>
+                    <li><a class="ftwitter" target="noopener" href="https://www.twitter.com/soy_502"></a></li>
+                    <li><a class="ffacebook" target="noopener" href="https://www.facebook.com/soy502"></a></li>
+                    <li><a class="finstagram" target="noopener" href="http://instagram.com/soy_502"></a></li>
+                    <li><a class="fpinterest" target="noopener" href="http://www.pinterest.com/soy502/"></a></li>
+                </ul>
+                <div class="copy">Derechos Reservados &copy; - 2024</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fixed_ads">
+  <div class="fixed_ads"><img id="close-ad" src="/images/close-icon.png" alt="cerrar"> <script>
+   window.googletag = window.googletag || {cmd: []};
+   googletag.cmd.push(function() {
+    googletag.defineSlot('/82890815/Desktop_Interstitial_Ciencia_y_Tec_Tecnología', [[940, 70], [970, 90], [728, 90]], 'div-gpt-ad-1548368866929-0').addService(googletag.pubads());
+   // googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+<!-- /82890815/Desktop_Interstitial_Ciencia_y_Tec_Tecnología -->
+<div id='div-gpt-ad-1548368866929-0' style='max-width:940px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1548368866929-0'); });
+</script>
+</div></div>
+</div>
+                <script defer src="/common_files/themes/soy502/desktop/js/functions.min.js?v=89"></script>
+        <script defer type="text/javascript" src="/general/js/jquery.tools.min.js" onload="setScrollable()"></script>
+        <!-- START clara Script -->
+        <script>
+            var clara_device_type = "desktop" != "" ? "desktop" : "mobile";
+            var clara_article_section = "seccion/trending/tecnologia" != "" ? "seccion/trending/tecnologia" : null;
+            var clara_title = "Aprendiendo a salvar el medio ambiente, un nivel a la vez";
+            var clara_url = window.location.pathname;
+            var clara_keywords = "";
+            var clara_topic = "";
+            var clara_article_section_name = "Tecnología";
+            var clara_nid = "140678";
+        </script>
+
+        <!-- Clara Script Prod -->
+        <script defer type="text/javascript" src="/static/clara/v1/clara.js?v=2" onload="clara.init(window, document)"></script>
+        <script defer type="text/javascript" src="/static/clara/v1/clara_ads.js?v=1" onload="clara_ads.init(window, document, clara_device_type, clara_article_section, clara_url)"></script>
+        <script defer type="text/javascript" src="/static/clara/v1/clara_login.js?v=11" onload="clara_login.set_pageview_data(clara_url, clara_title, clara_keywords, clara_topic, clara_article_section_name, clara_nid, 0, location.href, document.referrer); clara_login.init(window, document);"></script>
+        <script defer type="text/javascript" src="/static/clara/v1/clara_login_modal.js?v=2" onload="clara_login_modal.init(window, document, get_body_special);"></script>
+
+        <!-- Clara Script Dev -->
+        <!-- <script defer type="text/javascript" src="/static/clara/dev/clara.js?v=1" onload="clara.init(window, document)"></script>
+        <script defer type="text/javascript" src="/static/clara/dev/clara_ads.js?v=1" onload="clara_ads.init(window, document, clara_device_type, clara_article_section, clara_url)"></script>
+        <script defer type="text/javascript" src="/static/clara/dev/clara_login.js?v=4" onload="clara_login.set_pageview_data(clara_url, clara_title, clara_keywords, clara_topic, clara_article_section_name, clara_nid, 0, location.href, document.referrer); clara_login.init(window, document);"></script>
+        <script defer type="text/javascript" src="/static/clara/dev/clara_login_modal.js" onload="clara_login_modal.init(window, document, get_body_special);"></script>         -->
+        <!-- END clara Script -->
+        
+        <!-- <script defer src="/common_files/js/aws-login.min.js?v=3" onload="window.fbAsyncInit()"></script>
+        <script defer src="/common_files/js/aws-extras.min.js?v=5"></script>         -->
+        <!-- <script defer src="/common_files/js/aws.min.js?v=3" onload="window.fbAsyncInit()"></script> -->
+        <!--<script async src="/common_files/js/dmp502.min.js"></script>
+        <script async src="/common_files/js/login502.min.js"></script>-->
+        <script defer src="/common_files/js/rest_event.min.js?v=2"></script>
+        <script defer src="/common_files/js/confeti.min.js"></script>
+        <script defer src="/common_files/js/snow.min.js"></script>
+        <script>
+            var fecha_contador = new Date("07 Jul 2024 11:41:41");
+            var loadDeferredStyles = function() {
+                var addStylesNode = document.getElementById("deferred-styles");
+                var replacement = document.createElement("div");
+                replacement.innerHTML = addStylesNode.textContent;
+                document.body.appendChild(replacement)
+                addStylesNode.parentElement.removeChild(addStylesNode);
+            };
+            var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+                window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+            if (raf)
+                raf(function() {
+                    window.setTimeout(loadDeferredStyles, 0);
+                });
+            else
+                window.addEventListener('load', loadDeferredStyles);
+        </script>
+        <script src="/common_files/js/ads.min.js"></script>
+        <script defer src="/common_files/js/impreso_portada.min.js?v1.0"></script>
+        <div class="adsbygoogle" style="width:5px;"></div>
+        <script> var printInread0 = true; var section_inread = "Tecnología";</script>    </body>
+
+    </html>

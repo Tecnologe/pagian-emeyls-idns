@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de PDFs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #929754;
+            margin: 20px;
+        }
+
+        .pdf-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .pdf {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .pdf img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .pdf-title {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .pdf-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .pdf-link a {
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .pdf-link a:hover {
+            background-color: #0056b3;
+        }
+
+        .description-container {
+            background-color: #bac4cf;
+            color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="description-container">
+        <div class="description">
+            <p>Explora la Sabiduría de los Pueblos Indígenas a Través de Nuestra Biblioteca</p>
+            <p>Sumérgete en la riqueza cultural y la sabiduría ancestral de los pueblos indígenas a través de nuestra cuidadosamente seleccionada colección de libros. Cada Libro te invita a un viaje profundo hacia la comprensión de sus tradiciones, historia y cosmovisión única. Desde el mítico Popol Vuh hasta el evocador Memorial del Quinto Sol, cada obra te lleva más allá de las palabras, ofreciéndote una ventana hacia la diversidad cultural y el legado perdurable de estas civilizaciones. Descubre cómo estos libros no solo informan, sino que también transforman, inspirando un profundo respeto y aprecio por las raíces de nuestra humanidad.</p>
+        </div>
+    </div>
+
+    <div class="pdf-container">
+        <div class="pdf">
+            <img src="img/popol.jpg" alt="Portada PDF 1">
+            <div class="pdf-title">Popol Vuh (El libro del pueblo)</div>
+            <div class="pdf-link"><a href="Pdf/1-Popol-Vuh-Traduccio╠un-de-Francisco-Xime╠unez-Lecturas-Bicentenarias.pdf" target="_blank">Ver / Descargar PDF</a></div>
+        </div>
+        <div class="pdf">
+            <img src="img/3.jpg" alt="Portada PDF 2">
+            <div class="pdf-title">Memorial del Quinto Sol</div>
+            <div class="pdf-link"><a href="Pdf/quintosol.pdf" target="_blank">Ver / Descargar PDF</a></div>
+        </div>
+        <div class="pdf">
+            <img src="img/chilim.jpg" alt="Portada PDF 3">
+            <div class="pdf-title">Chilam Balam de Chumayel</div>
+            <div class="pdf-link"><a href="Pdf/Chilam_Balam.pdf" target="_blank">Ver / Descargar PDF</a></div>
+        </div>
+        <div class="pdf">
+            <img src="img/4.jpg" alt="Portada PDF 4">
+            <div class="pdf-title">Cantares de los incas</div>
+            <div class="pdf-link"><a href="Pdf/cerron.pdf" target="_blank">Ver / Descargar PDF</a></div>
+        </div>
+        <div class="pdf">
+            <img src="img/5.jpg" alt="Portada PDF 5">
+            <div class="pdf-title">Lienzo de Tlaxcala</div>
+            <div class="pdf-link"><a href="Pdf/publicacion(46606)-5449.pdf" target="_blank">Ver / Descargar PDF</a></div>
+        </div>
+        <div class="pdf">
+            <img src="img/7.jpg" alt="Portada PDF 6">
+            <div class="pdf-title">Códice Florentino</div>
+            <div class="pdf-link"><a href="Pdf/484_04_05_CodiceFlorentino.pdf" target="_blank">Ver / Descargar PDF</a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

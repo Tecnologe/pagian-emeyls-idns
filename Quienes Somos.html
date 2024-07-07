@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Quienes Somos</title>
+    <style>
+        /* Estilos para el ícono de hamburguesa */
+        .hamburger {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        .hamburger div {
+            width: 30px;
+            height: 3px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        /* Estilos para el menú desplegable */
+        .menu-desplegable {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        .menu-desplegable a {
+            display: block;
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-desplegable a:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="contenedor">
+            <h1><img class="logo_1" src="img/logo.png" alt="logo_decomercial"></h1>
+            <!-- Menú de navegación principal -->
+            <ul id="menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="Quienes Somos.html">Quiénes Somos</a></li>
+                <li><a href="producto.html">Pueblos</a></li>
+                <li><a href="contactenos.html">Contáctenos</a></li>
+            </ul>
+            <!-- Menú hamburguesa -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <!-- Menú desplegable oculto inicialmente -->
+            <div class="menu-desplegable" id="menuDesplegable">
+                <a href="opcion1.html">Juegos</a>
+                <a href="opcion2.html">Videos</a>
+                <a href="opcion3.html">Biblioteca</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo_principal">Misión </h2>
+            <p class="mision">En "web-enely.indigena", nos comprometemos a promover y preservar la riquísima diversidad
+                de los pueblos indígenas de Guatemala. Nuestra misión es ofrecer una plataforma inclusiva que celebre
+                las culturas, lenguas y tradiciones ancestrales, destacando su invaluable contribución a la identidad
+                nacional. Buscamos empoderar a las comunidades indígenas al proporcionar un espacio digital donde puedan
+                compartir sus conocimientos, artesanías y perspectivas únicas, fomentando así un entendimiento más
+                profundo y respetuoso entre todos los guatemaltecos.</p>
+        </section>
+
+        <section class="principal">
+            <h2 class="titulo_principal">Visión </h2>
+            <p class="mision">Nuestra visión en "web-enely.indigena" es ser reconocidos como un faro de luz que ilumina
+                la diversidad cultural de Guatemala. Aspiramos a ser la principal fuente de información y aprecio por
+                los pueblos indígenas, sirviendo como un puente de conexión entre las generaciones presentes y futuras.
+                Nos esforzamos por expandir nuestro alcance y aumentar nuestra influencia en la sociedad guatemalteca,
+                promoviendo siempre el respeto, la igualdad y la justicia para todos los pueblos indígenas del país.</p>
+        </section>
+    </main>
+
+    <footer class="fondon">
+        <section class="seccion-footer">
+            <p class="Copyrigt">&#169 Enely.Indigena 2024</p>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <ul>
+                <li><a href="https://www.facebook.com/MontesinosColegio"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <script src="extramenu.js" defer></script>
+
+</body>
+
+</html>

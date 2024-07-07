@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Producto</title>
+<link rel="stylesheet" href="prueba.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    /* Estilos para el ícono de hamburguesa */
+    .hamburger {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .hamburger div {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    /* Estilos para el menú desplegable */
+    .menu-desplegable {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+    .menu-desplegable a {
+        display: block;
+        padding: 10px 15px;
+        color: #333;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .menu-desplegable a:hover {
+        background-color: #f0f0f0;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div id="contenedor">
+        <h1><img class="logo_1" src="img/logo.png" alt="logo_decomercial"></h1>
+        <!-- Menú de navegación principal -->
+        <ul id="menu">
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="Quienes Somos.html">Quiénes Somos</a></li>
+            <li><a href="producto.html">Pueblos</a></li>
+            <li><a href="contactenos.html">Contáctenos</a></li>
+        </ul>
+        <!-- Menú hamburguesa -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Menú desplegable oculto inicialmente -->
+        <div class="menu-desplegable" id="menuDesplegable">
+            <a href="opcion1.html">Juegos</a>
+            <a href="opcion2.html">Videos</a>
+            <a href="opcion3.html">Biblioteca</a>
+        </div>
+    </div>
+</header>
+
+<section class="seccion">
+    <div class="container">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+               <img class="fotopro" src="img/mam.png" alt="">           
+              <h3>MAYA</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p> Explora la historia y el legado único de los Maya.</p>
+              <a href="boxers.html" type="button">Ver más</a>
+            </div>
+          </div>
+       </div>
+       
+       <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img class="fotopro" src="img/maya.png" alt="">              <h3>GARIFUNA</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p> Explora la historia y el legado único del Pueblo Garifuna.</p>
+              <a href="camisas.html" type="button">Ver más</a>
+            </div>
+          </div>
+       </div>
+       
+       
+       <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img class="fotopro" src="img/tzi.png" alt=""> 
+               <h3>MAM</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Explora la historia y el legado único del Pueblo MaM.</p>
+              <a href="pantalones.html" type="button">Ver más</a>
+            </div>
+          </div>
+       </div>
+       
+       
+       
+     <div class="container">
+       <div class="card">
+         <div class="face face1">
+           <div class="content">
+            <img class="fotopro" src="img/xinka.png" alt="">            
+             <h3>XINKA</h3>
+           </div>
+         </div>
+         <div class="face face2">
+           <div class="content">
+             <p> Explora la historia y el legado único de los Xinkas. </p>
+             <a href="playeras.html" type="button">Ver más</a>
+           </div>
+         </div>
+      </div>
+      
+      <div class="card">
+         <div class="face face1">
+           <div class="content">
+            <img class="fotopro" src="img/ladino.png" alt="">                <h3>LADINO</h3>
+           </div>
+         </div>
+         <div class="face face2">
+           <div class="content">
+             <p> Explora la historia y el legado único de los Ladinos.</p>
+             <a href="calcetines.html" type="button">Ver más</a>
+           </div>
+         </div>
+      </div>
+      
+      
+      <div class="card">
+         <div class="face face1">
+           <div class="content">
+            <img class="fotopro" src="img/garifuna.png" alt=""> 
+              <h3>OTROS</h3>
+           </div>
+         </div>
+         <div class="face face2">
+           <div class="content">
+             <p> Explora la historia y el legado único de distintos Publos Indigenas. </p>
+             <a href="cinchos.html" type="button">Ver más</a>
+           </div>
+         </div>
+      </div>
+      
+       
+       
+       
+     </div>
+    </section>
+
+<footer class="fondon">
+ <section class="seccion-footer">
+  <P class="Copyrigt">&#169 Enely.Indigena 2024</P>
+  <div class="color"></div>
+    <div class="color"></div>
+    <div class="color"></div>
+    <ul>
+      <li><a href="https://www.facebook.com/MontesinosColegio"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+    </ul>
+  </section>
+
+  <script src="extramenu.js" defer></script>
+
+</body>
+</html>

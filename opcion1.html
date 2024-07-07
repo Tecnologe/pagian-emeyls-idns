@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6b3575;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333333;
+        }
+
+        .header p {
+            margin: 10px 0;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .header h2 {
+            margin-top: 10px;
+            font-size: 1.8em;
+            color: #333333;
+            text-align: start;
+        }
+
+        .header ul {
+            margin-top: 10px;
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .header ul li {
+            margin-bottom: 10px;
+            color: #666666;
+        }
+
+        .header ul li strong {
+            color: #333333;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100px;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+            color: #333333;
+        }
+
+        .card-content p {
+            margin: 0;
+            color: #666666;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Juegos Recreativos Educativos</h1>
+        <p>Bienvenidos a nuestro espacio de Juegos Recreativos Educativos, un lugar donde el aprendizaje se encuentra
+            con la diversión. Aquí, ofrecemos una selección de juegos interactivos y didácticos diseñados para fomentar
+            el conocimiento y la apreciación de los pueblos indígenas de Guatemala. A través de estos juegos, los
+            usuarios pueden explorar la rica historia, cultura y tradiciones de las diversas comunidades indígenas de
+            manera lúdica y envolvente.</p>
+        <h2>¿Cómo te ayudan nuestros juegos?</h2>
+        <ul>
+            <li><strong>Aprendizaje Activo:</strong> Nuestros juegos están diseñados para involucrar activamente a los
+                usuarios, promoviendo la retención del conocimiento a través de la interacción y la práctica.</li>
+            <li><strong>Diversidad Cultural:</strong> Descubre la diversidad de los pueblos indígenas, sus idiomas,
+                costumbres y formas de vida. Cada juego está creado para resaltar aspectos únicos de diferentes
+                comunidades.</li>
+            <li><strong>Desarrollo de Habilidades:</strong> Al jugar, los usuarios no solo aprenden sobre culturas
+                indígenas, sino que también desarrollan habilidades cognitivas como la memoria, el razonamiento lógico
+                y la resolución de problemas.</li>
+            <li><strong>Inclusión y Respeto:</strong> Fomentamos la inclusión y el respeto hacia las culturas
+                indígenas, destacando la importancia de preservar y valorar las tradiciones ancestrales.</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="img/imgjuegos1" alt="Image 1">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/17446177" target="_blank">Los Mayas </a></h3>
+                <p>Cada oveja con su pareja</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/foto4" alt="Image 2">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/17510606" target="_blank">Juego Maya </a></h3>
+                <p>Verdadero o falso </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/foto1" alt="Image 3">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/22123746" target="_blank">Los Mayas </a></h3>
+                <p>Consurso de preguntas.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/abrecajas" alt="Image 4">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/17988380" target="_blank">Los Mayas</a></h3>
+                <p>Abrecajas </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/ruleta" alt="Image 5">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/14279073" target="_blank">Ruleta</a></h3>
+                <p>Ruleta Aleatoria de Preguntas .</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/mayas astecas" alt="Image 6">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/17736717" target="_blank">Mayas,Aztecas e Incas</a></h3>
+                <p>Abrecajas</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/identidad.jpg" alt="Image 7">
+            <div class="card-content">
+                <h3><a href="https://www.cerebriti.com/juegos-de-historia/la-identidad-xinca" target="_blank">Identidad
+                        Xinka</a></h3>
+                <p>Juego de identidad </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Juego-ulama-Guatemala.jpg" alt="Image 8">
+            <div class="card-content">
+                <h3><a href="https://www.cerebriti.com/juegos-de-historia/cultura-garifuna" target="_blank">Juegos
+                        Garifuna</a></h3>
+                <p>Description for card 8.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/pueblo.jpg" alt="Image 9">
+            <div class="card-content">
+                <h3><a href="https://www.cerebriti.com/juegos-de-historia/pueblos-de-guatemala1"
+                        target="_blank">Plueblos </a></h3>
+                <p>Juego de los pueblos indigenas de Guatemala </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/razo" alt="Image 10">
+            <div class="card-content">
+                <h3><a href="https://wordwall.net/es/resource/11245609" target="_blank">Juegos </a></h3>
+                <p>Juegos de Razonamiento logico </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/cuerpo.jpg" alt="Image 11">
+            <div class="card-content">
+                <h3><a href="https://www.cerebriti.com/juegos-de-%23q%C2%B4eqchi%C2%B4/tag/mas-recientes/"
+                        target="_blank">Q´eqchi´</a></h3>
+                <p>Partes del cuerpo</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/pronomrbes.png" alt="Image 12">
+            <div class="card-content">
+                <h3><a href="https://www.cerebriti.com/juegos-de-lengua/pronombres-personales-en-qand039eqchiand039"
+                        target="_blank">Q´eqchi´</a></h3>
+                <p>Pronombres en idioma Q´eqchi´</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
